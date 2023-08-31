@@ -414,3 +414,8 @@ rosmsg show Num
 roscd beginner_tutorials
 
 ```
+## Add new cpp
+
+add_executable(try src/try.cpp)
+
+target_link_libraries(try ${catkin_LIBRARIES})
